@@ -1,0 +1,100 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 289
+  ClientWidth = 382
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lblNomeOficial: TLabel
+    Left = 138
+    Top = 128
+    Width = 3
+    Height = 15
+  end
+  object lblCapital: TLabel
+    Left = 138
+    Top = 149
+    Width = 3
+    Height = 15
+  end
+  object lblRegiao: TLabel
+    Left = 138
+    Top = 170
+    Width = 3
+    Height = 15
+  end
+  object lblPopulacao: TLabel
+    Left = 138
+    Top = 191
+    Width = 3
+    Height = 15
+  end
+  object lblMoeda: TLabel
+    Left = 138
+    Top = 212
+    Width = 3
+    Height = 15
+  end
+  object Label1: TLabel
+    Left = 26
+    Top = 128
+    Width = 68
+    Height = 15
+    Caption = 'Nome oficial'
+  end
+  object Label2: TLabel
+    Left = 26
+    Top = 149
+    Width = 37
+    Height = 15
+    Caption = 'Capital'
+  end
+  object Label3: TLabel
+    Left = 26
+    Top = 170
+    Width = 36
+    Height = 15
+    Caption = 'Regi'#227'o'
+  end
+  object Label4: TLabel
+    Left = 26
+    Top = 191
+    Width = 56
+    Height = 15
+    Caption = 'Popula'#231#227'o'
+  end
+  object Label5: TLabel
+    Left = 26
+    Top = 212
+    Width = 89
+    Height = 15
+    Caption = 'Nome da moeda'
+  end
+  object btnConsultar: TButton
+    Left = 240
+    Top = 32
+    Width = 75
+    Height = 25
+    Caption = 'Consultar'
+    TabOrder = 0
+    OnClick = btnConsultarClick
+  end
+  object edtPais: TEdit
+    Left = 26
+    Top = 33
+    Width = 175
+    Height = 23
+    TabOrder = 1
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 88
+    Top = 232
+  end
+end
